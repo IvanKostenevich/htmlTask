@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: black;
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid coral;
     color: whitesmoke;
     font-family: Helvetica, Arial, sans-serif;
     height: 50px;
@@ -16,14 +16,14 @@ header {
 
 header p {
     margin-top: 0;
-    padding-left: 160px;
-    padding-top: 20px;
+    padding-left: 14%;
+    padding-top: 15px;
     float: left;
 
 }
 
 nav .nav {
-    border-bottom: 5px solid orange;
+    border-bottom: 5px solid coral;
 }
 
 nav ul {
@@ -36,7 +36,23 @@ nav ul {
 }
 
 ul li {
-        display: inline-block;
+    display: inline-block;
+    margin-right: 1%;
+    height: 50px;
+    width: 65px;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav li:hover {
+    background: coral;
+
 }
 
 .block {
@@ -44,4 +60,37 @@ ul li {
     margin-top: 0;
     background-size: contain;
     height: 280px;
+    color: whitesmoke;
+
+}
+
+.redcircle {
+    color: whitesmoke;
+    background-image: url("../images/sliced_03.gif");
+    background-size: 45px 45px;
+    background-position: 9% 82%;
+    border-radius: px;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-left: 80px;
+    text-transform: uppercase;
+
+
+}
+
+.redcircle hr {
+    margin: 0px 0px 5px 3px;
+    border: none;
+    height: 0.5px;
+
+}
+
+.block p {
+    padding-left: 80px;
+    font-size: small;
+}
+
+
+.lowblock {
+
 }
