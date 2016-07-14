@@ -156,10 +156,11 @@ nav li:hover {
 
 .headinfimg img {
     float: right;
-    height: 150px;
-    width: 150px;
-    margin-top: 30px;
-    margin-right: 50px;
+    height: 180px;
+    width: 180px;
+    padding:;
+
+
 }
 
 .headinf {
@@ -169,13 +170,15 @@ nav li:hover {
 
 .headinf1 {
     margin-left: 55px;
-    width: 650px;
+    width: 905px;
     float: left;
 }
 
 .headinf1 h2 {
     color: #3b4041;
     text-transform: uppercase;
+    width: 550px;
+    float: left;
 }
 
 .headinf1 h3 {
@@ -184,6 +187,8 @@ nav li:hover {
     border-bottom: 1px solid #e7e7e7;
     padding: 5px 0 5px 0;
     margin: 7px 0 7px 0;
+    width: 600px;
+    float: left;
 }
 
 .butmore img {
@@ -192,10 +197,11 @@ nav li:hover {
 }
 
 .butmore1 img {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-.addinf12 {
+.headinfimg img {
+    margin:-28px 74px 0px 0px;
 
 }
 
@@ -207,8 +213,11 @@ nav li:hover {
 
 .addinf2 {
     float: right;
-
+    margin-left: 50px;
     width: 300px;
+}
+.addinf12{
+    float: left;
 }
 
 
