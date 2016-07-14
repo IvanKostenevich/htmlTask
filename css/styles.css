@@ -6,6 +6,15 @@ body {
     padding-top: 0;
 }
 
+body p {
+    color: #94999a;
+}
+
+a {
+    text-decoration: none;
+    color: #e84c3d;
+}
+
 header {
     background-color: black;
     border-bottom: 1px solid #e84c3d;
@@ -19,6 +28,7 @@ header p {
     padding-left: 80px;
     padding-top: 15px;
     float: left;
+    color: whitesmoke;
 
 }
 
@@ -66,7 +76,7 @@ nav li:hover {
 
 .redcircle {
     color: whitesmoke;
-    background-image: url("../images/sliced_03.gif");
+    background-image: url("../images/redcicle.gif");
     background-size: 35px 35px;
     background-position: 9% 82%;
     background-repeat: no-repeat;
@@ -91,13 +101,29 @@ nav li:hover {
 
 .lowblock {
     background-color: #e7e7e7;
-    height: 100px;
+    height: 150px;
+}
+
+.lowblock h2 {
+    text-transform: uppercase;
+    color: #3b4041;
+}
+
+.lowblock p {
+    font-size: small;
+    margin-top: 10px;
 }
 
 .lowblock1 {
     float: left;
-    width: 250px;
-    margin-left: 80px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-image: url("../images/rocket.gif");
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: 4% 0%;
+    padding-left: 50px;
 
 }
 
@@ -108,13 +134,93 @@ nav li:hover {
 
 .lowblock2-1 {
     float: left;
-    width: 250px;
-    margin-right: 20px;
+    width: 200px;
+    margin-top: 30px;
+    background-image: url("../images/Shield.gif");
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    margin-right: 55px;
+    padding-left: 40px;
 }
 
 .lowblock3 {
     float: right;
-    width: 250px;
+    width: 200px;
     margin-right: 80px;
+    margin-top: 30px;
+    background-image: url("../images/extinguisher.gif");
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    padding-left: 40px;
+}
+
+.headinfimg img {
+    float: right;
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.headinf {
+    float: left;
+    margin-top: 25px;
+}
+
+.headinf1 {
+    margin-left: 55px;
+    width: 650px;
+    float: left;
+}
+
+.headinf1 h2 {
+    color: #3b4041;
+    text-transform: uppercase;
+}
+
+.headinf1 h3 {
+    color: #e84c3d;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 5px 0 5px 0;
+    margin: 7px 0 7px 0;
+}
+
+.butmore img {
+    margin-top: 15px;
 
 }
+
+.butmore1 img {
+    margin-top: 20px;
+}
+
+.addinf12 {
+
+}
+
+.addinf1 {
+    width: 250px;
+    float: left;
+    margin-left: 55px;
+}
+
+.addinf2 {
+    float: right;
+
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
