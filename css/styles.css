@@ -4,10 +4,12 @@ body {
     margin-right: auto;
     margin-top: 0;
     padding-top: 0;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 body p {
     color: #94999a;
+    font-size: small;
 }
 
 a {
@@ -19,7 +21,7 @@ header {
     background-color: black;
     border-bottom: 1px solid #e84c3d;
     color: whitesmoke;
-    font-family: Helvetica, Arial, sans-serif;
+
     height: 50px;
 }
 
@@ -158,8 +160,6 @@ nav li:hover {
     float: right;
     height: 180px;
     width: 180px;
-    padding:;
-
 
 }
 
@@ -197,11 +197,11 @@ nav li:hover {
 }
 
 .butmore1 img {
-    margin-top: 30px;
+    margin-top: 28px;
 }
 
 .headinfimg img {
-    margin:-28px 74px 0px 0px;
+    margin: -28px 74px 0px 0px;
 
 }
 
@@ -216,20 +216,211 @@ nav li:hover {
     margin-left: 50px;
     width: 300px;
 }
-.addinf12{
+
+.addinf12 {
     float: left;
 }
 
+.addinf12 h4 {
+    color: #202628;
+}
 
+.submit {
+    width: 833px;
+    left: 50px;
+    position: absolute;
+    top: 810px;
+    background-color: #e84c3d;
+    border-radius: 10px;
+    color: white;
 
+}
 
+.quote {
+    background-image: url("../images/profile.gif");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-y: 22%;
+    padding-left: 71px;
+    width: 330px;
+    float: left;
+    margin: 35px 15px 0px 25px;
+    padding-bottom: 26px;
+    color: white;
+}
 
+.quote p {
+    color: white;
+    font-style: italic;
+}
 
+.quote q {
+    font-style: normal;
+}
 
+.submit h2 {
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
 
+.submitbut img {
+    float: right;
 
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 8px
 
+}
 
+.submitbut {
+    color: white;
+    padding-top: 35px;
 
+}
 
+.submitbut input[type=email] {
+    border-radius: 50px;
+    border: none;
+    color: #94999a;
+    font-style: italic;
+    width: 255px;
+    padding-top: 1px;
+    padding-left: 19px;
+    margin-top: 8px;
+    line-height: 28px;
+}
 
+.comment {
+    margin-top: 495px;
+}
+
+.comment h2 {
+    text-transform: uppercase;
+    color: #202628;
+}
+
+.comleft {
+    float: left;
+    width: 270px;
+    margin-left: 50px;
+    line-height: 20px;
+}
+
+.comright {
+    float: right;
+}
+
+.infcom {
+    float: right;
+    width: 210px;
+    margin-right: 95px;
+}
+
+.comimg1 {
+    background-image: url("../images/girl.gif");
+    background-repeat: no-repeat;
+    border-top: 1px solid #94999a;
+    border-bottom: 1px solid #94999a;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0 5px 80px;
+    background-position-y: 45%;
+}
+
+.comimg2 {
+    background-image: url("../images/bed.gif");
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #94999a;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0 5px 80px;
+    background-position-y: 45%;
+}
+
+.comimg3 {
+    background-image: url("../images/litcrow.gif");
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #94999a;
+
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0 5px 80px;
+    background-position-y: 45%;
+}
+
+.comleft span {
+    color: #e84c3d;
+}
+
+.addimg {
+    background-image: url("../images/house.gif");
+    background-repeat: no-repeat;
+}
+
+.phoneimg {
+    background-image: url("../images/tel.gif");
+    background-repeat: no-repeat;
+}
+
+.mailimg {
+    background-image: url("../images/envel.gif");
+    background-repeat: no-repeat;
+}
+
+.greycom {
+    background-color: #e7e7e7;
+    margin: 14px 0px 0 0px;
+    border-radius: 5px;
+}
+
+.yourcom {
+    float: left;
+    width: 270px;
+    margin-right: 40px;
+}
+
+.greycom p {
+    padding: 15px 0px 35px 19px;
+    line-height: 22px;
+}
+
+.greycom input {
+    border-radius: 50px;
+    border: none;
+    color: #94999a;
+    font-style: italic;
+    padding-top: 1px;
+    padding-left: 19px;
+    margin-top: 8px;
+    line-height: 28px;
+    width: 220px;
+    margin-left: 15px;
+}
+
+.sendbut {
+    height: 51px;
+    background-image: url("../images/send.gif");
+    background-repeat: no-repeat;
+    background-position: 16px 10px;
+    background-size: 83px;
+}
+
+.greycom .query {
+    line-height: 5;
+    border-radius: 8px;
+    width: 220px;
+    margin-left: 15px;
+}
+
+.addimg {
+    border-top: 1px solid #94999a;
+    border-bottom: 1px solid #94999a;
+}
+
+.phoneimg {
+    border-top: 1px solid #94999a;
+    border-bottom: 1px solid #94999a;
+}
+
+.mailimg {
+    border-top: 1px solid #94999a;
+    border-bottom: 1px solid #94999a;
+
+}
