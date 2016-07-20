@@ -227,12 +227,12 @@ nav li:hover {
 
 .submit {
     width: 833px;
-    left: 50px;
     position: absolute;
     top: 810px;
     background-color: #e84c3d;
     border-radius: 10px;
     color: white;
+    margin-left: 50px;
 
 }
 
@@ -314,6 +314,11 @@ nav li:hover {
     float: right;
     width: 210px;
     margin-right: 95px;
+    line-height: 17px;
+}
+
+.infcom h2 {
+    margin-bottom: 15px;
 }
 
 .comimg1 {
@@ -352,16 +357,29 @@ nav li:hover {
 .addimg {
     background-image: url("../images/house.gif");
     background-repeat: no-repeat;
+    border-top: 1px solid #94999a;
+    border-bottom: 1px solid #94999a;
+    padding: 5px 0px 5px 30px;
+    background-position-y: 35%;
 }
 
 .phoneimg {
     background-image: url("../images/tel.gif");
     background-repeat: no-repeat;
+
+    border-bottom: 1px solid #94999a;
+    padding: 5px 0 5px 30px;
+    background-position-y: 35%;
 }
 
 .mailimg {
     background-image: url("../images/envel.gif");
     background-repeat: no-repeat;
+
+    border-bottom: 1px solid #94999a;
+    padding: 5px 0 5px 30px;
+    background-position-y: 35%;
+
 }
 
 .greycom {
@@ -409,18 +427,27 @@ nav li:hover {
     margin-left: 15px;
 }
 
-.addimg {
-    border-top: 1px solid #94999a;
-    border-bottom: 1px solid #94999a;
+.addimg h3 {
+    margin: 10px 0 7px 0;
 }
 
-.phoneimg {
-    border-top: 1px solid #94999a;
-    border-bottom: 1px solid #94999a;
+.addimg p {
+    margin-bottom: 10px;
+    width: 151px;
 }
 
-.mailimg {
-    border-top: 1px solid #94999a;
-    border-bottom: 1px solid #94999a;
+.phoneimg h3 {
+    margin: 14px 0 7px 0;
+}
 
+.phoneimg p {
+    margin-bottom: 10px;
+}
+
+.mailimg h3 {
+    margin: 14px 0 7px 0;
+}
+
+.mailimg p {
+    margin-bottom: 10px;
 }
