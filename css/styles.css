@@ -78,7 +78,7 @@ nav li:hover {
 
 .redcircle {
     color: whitesmoke;
-    background-image: url("../images/redcicle.gif");
+    background-image: url("../images/redcicle.png");
     background-size: 35px 35px;
     background-position: 9% 82%;
     background-repeat: no-repeat;
@@ -237,7 +237,7 @@ nav li:hover {
 }
 
 .quote {
-    background-image: url("../images/profile.gif");
+    background-image: url("../images/profile.png");
     background-repeat: no-repeat;
     background-size: 50px;
     background-position-y: 22%;
@@ -441,7 +441,7 @@ nav li:hover {
 }
 
 .phoneimg p {
-    margin-bottom: 10px;
+    margin-bottom: 10px; url("../images/twitter.png")
 }
 
 .mailimg h3 {
@@ -450,4 +450,27 @@ nav li:hover {
 
 .mailimg p {
     margin-bottom: 10px;
+}
+footer {
+    background-color: #202628;
+    margin-top: 840px;
+    background-size: 38px;
+    background-repeat: no-repeat;
+    background-image: url("../images/facebook.png"),url("../images/twitter.png"),url("../images/insta1.png");
+    background-position: 78% 50%,84% 50%,90% 50%;
+}
+.navigation {
+    padding: 20px 0px 5px 50px;
+
+}
+.navigation h3{
+    color: #e7e7e7;
+    word-spacing:10px;
+}
+.design{
+    color: #e84c3d;
+}
+.copyright p{
+    color: #6b7173;
+    padding: 0px 0 15px 50px;
 }
