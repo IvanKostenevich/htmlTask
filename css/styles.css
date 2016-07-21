@@ -104,6 +104,7 @@ nav li:hover {
 .lowblock {
     background-color: #e7e7e7;
     height: 150px;
+    clear: both;
 }
 
 .lowblock h2 {
@@ -118,8 +119,8 @@ nav li:hover {
 
 .lowblock1 {
     float: left;
-    width: 200px;
-    margin-left: 40px;
+    width: 25%;
+    margin-left: 50px;
     margin-top: 30px;
     background-image: url("../images/rocket.gif");
     background-repeat: no-repeat;
@@ -136,49 +137,55 @@ nav li:hover {
 
 .lowblock2-1 {
     float: left;
-    width: 200px;
+    width: 25%;
     margin-top: 30px;
     background-image: url("../images/Shield.gif");
     background-repeat: no-repeat;
     background-size: 35px 35px;
-    margin-right: 55px;
     padding-left: 40px;
 }
 
 .lowblock3 {
-    float: right;
-    width: 200px;
-    margin-right: 80px;
+    float: left;
+    width: 25%;
+    margin-right: 50px;
     margin-top: 30px;
     background-image: url("../images/extinguisher.gif");
     background-repeat: no-repeat;
     background-size: 35px 35px;
     padding-left: 40px;
+
 }
 
 .headinfimg img {
     float: right;
     height: 180px;
-    width: 180px;
+    margin: 30px 50px 0px 0px;
 
 }
 
 .headinf {
-    float: left;
     margin-top: 25px;
+}
+
+.headinf:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 .headinf1 {
     margin-left: 55px;
-    width: 905px;
+    width: 66%;
     float: left;
 }
 
 .headinf1 h2 {
     color: #3b4041;
     text-transform: uppercase;
-    width: 550px;
-    float: left;
+
 }
 
 .headinf1 h3 {
@@ -187,38 +194,30 @@ nav li:hover {
     border-bottom: 1px solid #e7e7e7;
     padding: 5px 0 5px 0;
     margin: 7px 0 7px 0;
-    width: 600px;
-    float: left;
+
 }
 
 .butmore img {
     margin-top: 15px;
-
-}
-
-.butmore1 img {
-    margin-top: 28px;
-}
-
-.headinfimg img {
-    margin: -28px 74px 0px 0px;
-
+    height: 40px;
+    float: none;
 }
 
 .addinf1 {
-    width: 250px;
+    width: 40%;
     float: left;
     margin-left: 55px;
 }
 
 .addinf2 {
-    float: right;
+    float: left;
     margin-left: 50px;
-    width: 300px;
+    width: 40%;
 }
 
 .addinf12 {
     float: left;
+    width: 75%;
 }
 
 .addinf12 h4 {
@@ -226,13 +225,12 @@ nav li:hover {
 }
 
 .submit {
-    width: 833px;
-    position: absolute;
-    top: 810px;
+    width: 86%;
     background-color: #e84c3d;
     border-radius: 10px;
     color: white;
-    margin-left: 50px;
+    margin: 20px 50px 0 50px;
+    height: 130px;
 
 }
 
@@ -291,7 +289,15 @@ nav li:hover {
 }
 
 .comment {
-    margin-top: 495px;
+    margin-top: 40px;
+}
+
+.comment:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 .comment h2 {
@@ -301,9 +307,13 @@ nav li:hover {
 
 .comleft {
     float: left;
-    width: 270px;
+    width: 27%;
     margin-left: 50px;
     line-height: 20px;
+}
+
+.comleft a {
+    display: block;
 }
 
 .comright {
@@ -311,9 +321,9 @@ nav li:hover {
 }
 
 .infcom {
-    float: right;
-    width: 210px;
-    margin-right: 95px;
+    float: left;
+    width: 25%;
+    margin: 0px 0px 0px 15px;
     line-height: 17px;
 }
 
@@ -384,13 +394,14 @@ nav li:hover {
 
 .greycom {
     background-color: #e7e7e7;
-    margin: 14px 0px 0 0px;
+    margin: 12px 0px 0 20px;
     border-radius: 5px;
+    width: 106%
 }
 
 .yourcom {
     float: left;
-    width: 270px;
+    width: 28%;
     margin-right: 40px;
 }
 
@@ -400,7 +411,7 @@ nav li:hover {
 }
 
 .greycom input {
-    border-radius: 50px;
+    border-radius: 10px;
     border: none;
     color: #94999a;
     font-style: italic;
@@ -409,22 +420,25 @@ nav li:hover {
     margin-top: 8px;
     line-height: 28px;
     width: 220px;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .sendbut {
-    height: 51px;
-    background-image: url("../images/send.gif");
-    background-repeat: no-repeat;
-    background-position: 16px 10px;
-    background-size: 83px;
+    height: 35px;
+    margin: 5px 0px 8px 25px;
 }
 
 .greycom .query {
-    line-height: 5;
+    line-height: 2;
     border-radius: 8px;
-    width: 220px;
-    margin-left: 15px;
+    width: 75%;
+    margin: 15px 0px 0px 25px;
+    border: none;
+    color: #94999a;
+    font-style: italic;
+    padding: 11px 0px 17px 25px;
+    font: 13.3333px Arial;
+    font-style: italic;
 }
 
 .addimg h3 {
@@ -441,7 +455,7 @@ nav li:hover {
 }
 
 .phoneimg p {
-    margin-bottom: 10px; url("../images/twitter.png")
+    margin-bottom: 10px;
 }
 
 .mailimg h3 {
@@ -451,26 +465,45 @@ nav li:hover {
 .mailimg p {
     margin-bottom: 10px;
 }
+
 footer {
     background-color: #202628;
-    margin-top: 840px;
-    background-size: 38px;
-    background-repeat: no-repeat;
-    background-image: url("../images/facebook.png"),url("../images/twitter.png"),url("../images/insta1.png");
-    background-position: 78% 50%,84% 50%,90% 50%;
 }
-.navigation {
-    padding: 20px 0px 5px 50px;
+
+footer:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+footer .socials {
+    padding: 15px 0px 0px 730px;
 
 }
-.navigation h3{
-    color: #e7e7e7;
-    word-spacing:10px;
+
+.copyright {
+    float: left;
+
 }
-.design{
+
+.navigation {
+    padding: 20px 0px 5px 50px;
+    float: left;
+
+}
+
+.navigation h3 {
+    color: #e7e7e7;
+    word-spacing: 10px;
+}
+
+.design {
     color: #e84c3d;
 }
-.copyright p{
+
+.copyright p {
     color: #6b7173;
     padding: 0px 0 15px 50px;
 }
