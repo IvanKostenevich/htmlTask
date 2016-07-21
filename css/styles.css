@@ -192,16 +192,16 @@ nav li:hover {
 }
 
 .butmore img {
-    margin-top: 15px;
+    margin-top: 15px; /* What if content changes? */
 
 }
 
 .butmore1 img {
-    margin-top: 28px;
+    margin-top: 28px; /* What if content changes? */
 }
 
 .headinfimg img {
-    margin: -28px 74px 0px 0px;
+    margin: -28px 74px 0px 0px; /* Why exaclty these numbers? */
 
 }
 
@@ -321,6 +321,8 @@ nav li:hover {
     margin-bottom: 15px;
 }
 
+/* .comimg1, .comimg2 & .comimg3 could be generalized into one class */
+
 .comimg1 {
     background-image: url("../images/girl.gif");
     background-repeat: no-repeat;
@@ -353,6 +355,8 @@ nav li:hover {
 .comleft span {
     color: #e84c3d;
 }
+
+/* .addimg, .phoneimg & .mailimg could be generalized into one class */
 
 .addimg {
     background-image: url("../images/house.gif");
@@ -427,13 +431,15 @@ nav li:hover {
     margin-left: 15px;
 }
 
+/* .addimg, .phoneimg & .mailimg ancestors could be simplified */
+
 .addimg h3 {
     margin: 10px 0 7px 0;
 }
 
 .addimg p {
     margin-bottom: 10px;
-    width: 151px;
+    width: 151px; /* What is this for? */
 }
 
 .phoneimg h3 {
@@ -441,7 +447,7 @@ nav li:hover {
 }
 
 .phoneimg p {
-    margin-bottom: 10px; url("../images/twitter.png")
+    margin-bottom: 10px; url("../images/twitter.png") /* Causes syntax error, forgot to delete? */
 }
 
 .mailimg h3 {
@@ -451,12 +457,13 @@ nav li:hover {
 .mailimg p {
     margin-bottom: 10px;
 }
+
 footer {
     background-color: #202628;
     margin-top: 840px;
     background-size: 38px;
     background-repeat: no-repeat;
-    background-image: url("../images/facebook.png"),url("../images/twitter.png"),url("../images/insta1.png");
+    background-image: url("../images/facebook.png"),url("../images/twitter.png"),url("../images/insta1.png"); /* These should be clickable buttons, not background images */
     background-position: 78% 50%,84% 50%,90% 50%;
 }
 .navigation {
