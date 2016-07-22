@@ -78,14 +78,27 @@ nav li:hover {
 
 .redcircle {
     color: whitesmoke;
-    background-image: url("../images/redcicle.png");
-    background-size: 35px 35px;
-    background-position: 9% 82%;
-    background-repeat: no-repeat;
-    padding-top: 200px;
+    padding-top: 140px;
     padding-left: 80px;
     text-transform: uppercase;
+}
 
+.fullcircle button {
+    height: 40px;
+    width: 20px;
+    display: inline-block;
+    border: none;
+    background: #e84c3d;
+    margin-bottom: 5px;
+}
+
+.halfcircle1 {
+    border-radius: 40px 0px 0px 40px;
+}
+
+.halfcircle2 {
+    border-radius: 0px 40px 40px 0px;
+    margin-left: -3px;
 }
 
 .redcircle hr {
@@ -101,11 +114,7 @@ nav li:hover {
     color: #e84c3d;
 }
 
-.lowblock {
-    background-color: #e7e7e7;
-    height: 150px;
-    clear: both;
-}
+
 
 .lowblock h2 {
     text-transform: uppercase;
@@ -116,23 +125,21 @@ nav li:hover {
     font-size: small;
     margin-top: 10px;
 }
+.lowblock {
+    background-color: #e7e7e7;
+    height: 150px;
+}
 
 .lowblock1 {
     float: left;
     width: 25%;
-    margin-left: 50px;
     margin-top: 30px;
     background-image: url("../images/rocket.gif");
     background-repeat: no-repeat;
     background-size: 35px 35px;
     background-position: 4% 0%;
     padding-left: 50px;
-
-}
-
-.lowblock2 {
-    float: right;
-
+    margin-left: 50px;
 }
 
 .lowblock2-1 {
@@ -263,7 +270,6 @@ nav li:hover {
 
 .submitbut img {
     float: right;
-
     height: 30px;
     margin-right: 20px;
     margin-top: 8px
@@ -332,32 +338,31 @@ nav li:hover {
 }
 
 .comimg1 {
-    background-image: url("../images/girl.gif");
-    background-repeat: no-repeat;
     border-top: 1px solid #94999a;
     border-bottom: 1px solid #94999a;
     margin: 10px 0px 10px 0px;
-    padding: 5px 0 5px 80px;
-    background-position-y: 45%;
+    padding: 5px 0 5px 10px;
 }
 
 .comimg2 {
-    background-image: url("../images/bed.gif");
-    background-repeat: no-repeat;
     border-bottom: 1px solid #94999a;
     margin: 10px 0px 10px 0px;
-    padding: 5px 0 5px 80px;
-    background-position-y: 45%;
+    padding: 5px 0 5px 10px;
 }
 
 .comimg3 {
-    background-image: url("../images/litcrow.gif");
-    background-repeat: no-repeat;
     border-bottom: 1px solid #94999a;
-
     margin: 10px 0px 10px 0px;
-    padding: 5px 0 5px 80px;
-    background-position-y: 45%;
+    padding: 5px 0 5px 10px;
+}
+
+.comleft img {
+    float: left;
+}
+
+.comleft p {
+    padding-left: 80px;
+
 }
 
 .comleft span {
@@ -365,30 +370,21 @@ nav li:hover {
 }
 
 .addimg {
-    background-image: url("../images/house.gif");
-    background-repeat: no-repeat;
     border-top: 1px solid #94999a;
     border-bottom: 1px solid #94999a;
-    padding: 5px 0px 5px 30px;
-    background-position-y: 35%;
+    padding: 5px 0px 5px 15px;
+
 }
 
 .phoneimg {
-    background-image: url("../images/tel.gif");
-    background-repeat: no-repeat;
-
     border-bottom: 1px solid #94999a;
-    padding: 5px 0 5px 30px;
-    background-position-y: 35%;
+    padding: 5px 0 5px 15px;
+
 }
 
 .mailimg {
-    background-image: url("../images/envel.gif");
-    background-repeat: no-repeat;
-
     border-bottom: 1px solid #94999a;
-    padding: 5px 0 5px 30px;
-    background-position-y: 35%;
+    padding: 5px 0 5px 15px;
 
 }
 
@@ -397,6 +393,10 @@ nav li:hover {
     margin: 12px 0px 0 20px;
     border-radius: 5px;
     width: 106%
+}
+
+.yourcom h2 {
+    padding: 1px 0 0px 23px;
 }
 
 .yourcom {
@@ -439,31 +439,19 @@ nav li:hover {
     padding: 11px 0px 17px 25px;
     font: 13.3333px Arial;
     font-style: italic;
+    resize: none;
 }
 
-.addimg h3 {
-    margin: 10px 0 7px 0;
+.infcom h3 {
+    margin: 16px 0 0px 35px;
 }
 
-.addimg p {
-    margin-bottom: 10px;
-    width: 151px;
+.infcom p {
+    padding: 0 0 13px 35px;
 }
 
-.phoneimg h3 {
-    margin: 14px 0 7px 0;
-}
-
-.phoneimg p {
-    margin-bottom: 10px;
-}
-
-.mailimg h3 {
-    margin: 14px 0 7px 0;
-}
-
-.mailimg p {
-    margin-bottom: 10px;
+.infcom img {
+    float: left;
 }
 
 footer {
